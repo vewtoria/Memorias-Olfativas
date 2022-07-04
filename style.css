@@ -221,10 +221,7 @@ header {
     border-radius: 0px 15px 15px 0px;
 } */
 
-.footer {
-    background-color: #499D71;
 
-}
 
 
 .subtitulo-formulario {
@@ -294,6 +291,7 @@ header {
     transition: 0.3s all;
 }
 
+/*footer*/
 
 footer {
     position: absolute;
@@ -303,10 +301,17 @@ footer {
     background-color: #499D71;
 }
 
+.footer {
+    background-color: #499D71;
+
+}
+
 footer img {
     width: 10%;
     margin: 40px;
 }
+
+
 /* 
 
 rgba(58, 58, 58);
