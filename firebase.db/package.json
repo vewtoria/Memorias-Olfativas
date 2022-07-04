@@ -1,0 +1,7 @@
+{
+  "name": "Memorias-Olfativas",
+  "version": "1.0.0",
+  "dependencies": {
+    "firebase": "^9.8.4"
+  }
+}
