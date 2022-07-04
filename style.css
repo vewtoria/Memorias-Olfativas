@@ -66,7 +66,7 @@ header {
 .texto-home {
     color: rgba(58, 58, 58);
     background-color: #f5f5f5;
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     font-weight: medium; 
     margin-left: 65px;
     margin-right: 65px;
@@ -81,7 +81,7 @@ header {
     margin-left: 70px;
     margin-top: auto;
     font-size: 30px;
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-weight: bold;
     letter-spacing: 0.7px;
 }
@@ -130,27 +130,6 @@ header {
     cursor: pointer;
 } 
 
-/* 
-.perfil-v {
-    position: absolute;
-    width: 10%;
-    height: 40%;
-    clip-path: circle(30%);
-} 
-
-
-.nome-autor {
-    position: absolute;
-    left: 62px;
-    top: 296px;
-    font-family: 'Roboto';
-    font-weight: 600;
-    font-size: 20px;
-    align-items: center;
-    color: rgb(59, 59, 59);
-}     */
-
-
 /* Card home 2 */
 
 #card-two {
@@ -186,40 +165,6 @@ header {
     transition: 0.5s all;
     cursor: pointer;
 } 
-/* 
-#subtitulo-vocesabia {
-    position: absolute;
-    color: rgba(58, 58, 58);
-    font-size: 30px;
-    font-weight: bold;
-    font-family: 'Roboto';
-    margin-left: 100px ;
-    letter-spacing: 0.7px;
-}
-
-.texto-vocesabia {  
-    text-align: justify;
-    position: absolute;
-    padding: 50px;
-    width: 500px;
-    height: 270px;
-    margin-left: 170px;
-    top: 1400px;
-    font-size: 30px;
-    font-family: 'Roboto';
-    letter-spacing: 0.7px;
-    background-color:rgb(255, 255, 255);
-    text-color: rgba(58, 58, 58);
-    box-shadow: 20px 20px 16px rgba(0, 0, 0, 0.16);
-}
-
-.imagem-vocesabia {
-    position: absolute;
-    max-width: 30%;
-    left: 670px;
-    top: 1400px;
-    border-radius: 0px 15px 15px 0px;
-} */
 
 .footer {
     background-color: #499D71;
@@ -235,7 +180,7 @@ header {
     margin-top: 350px;
     font-size: 35px;
     font-weight: bold;
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     letter-spacing: 0.7px;
 }
 
@@ -245,7 +190,7 @@ header {
     margin-left: 50px;
     font-size: 20px;
     font-weight: medium;
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     letter-spacing: 0.7px;
 }
 
@@ -255,9 +200,7 @@ header {
     position: absolute;
     top: 1500px;
     width: 1166px;
-    left: 70px;
-    margin-left: auto;
-    margin-right: auto;
+    left: 90px;
     background: #dcdcdc;
     border-radius: 10px;
     border: #dcdcdc; 
@@ -269,7 +212,7 @@ header {
     position: absolute;
     top: 1590px;
     width: 1166px;
-    left: 70px;
+    left: 90px;
     background:  #dcdcdc;
     border-radius: 10px;
     border: #dcdcdc; 
@@ -281,7 +224,7 @@ header {
     width: 114px;
     height: 30px;
     top: 1800px;
-    margin-left: 70px;
+    margin-left: 0px;
     background: #499D71;
     border: #499D71;
     color: #FFFFFF;
@@ -311,10 +254,6 @@ footer img {
 
 rgba(58, 58, 58);
 display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
     #386857;
     font-family: 'Roboto', sans-serif; 
     color: #878787;*/
