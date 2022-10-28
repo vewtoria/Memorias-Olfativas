@@ -27,6 +27,9 @@ Utilizei o conceito desktop first pois queria explorar ao máximo o que poderia 
   <img align="center" alt="Trello" src="https://img.shields.io/badge/Trello-0052CC?style=for-the-badge&logo=trello&logoColor=white">
 </div>
 
+<br>
+
+  <img src="./images/previewtrello.png">
 
 
 
