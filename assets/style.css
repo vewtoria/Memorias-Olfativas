@@ -1,3 +1,286 @@
-html{
+body, html {
+    overflow-x: hidden !important;
+}
+
+body {
+    background-color: white;
+}
+
+@import url('magnat-poster-semi-bold.otf');
+
+@font-face {
+    font-family: 'Magnat';
+    src: local('magnat'), url('https://www.myfonts.com/collections/magnat-font-rene-bieder'), format('open-type');
+}
+
+/* barra de navegação */
+
+.logo-grupo-boticario {
+    top: 25px;
+    position: absolute;
+    width: 10%;
+    margin-left: 4%;
+}
+
+.lista-nav-lista {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 40px;
+}
+
+.lista-nav {
+    display: inline-block;
+    letter-spacing: 0.1em;
+    margin-right: 20px;
+}
+
+.itens-nav {
+    font: bold 20px 'Magnat', sans-serif;
+    text-transform: uppercase;
+    color: #fff; 
+    text-decoration: none;
+}
+
+.itens-nav:hover{
+    color: rgb(214, 104, 14);
+    transition: 0.3s all;
+}
+
+/* main */
+#banner-home{
+    width: 100vw;
+    height: 47vw;
+}
+
+.subtitulo-home {
+    color: rgba(58, 58, 58);
+    text-align: center;
+    margin: 3rem 0rem 2rem 0rem;
+    font: bold 30px 'Magnat', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.7px;
+}
+
+.texto-home {
+    box-sizing: border-box;
+    box-shadow: 10px 12px 12px #EEEDED;
+    color: rgba(58, 58, 58);
+    font: 400 16px 'Roboto', sans-serif;
+    letter-spacing: 0.7px;
+    margin: 0rem 1rem; 
+    text-align: center;
+    padding: 22px;
+}
+
+/* cards */
+
+.subtitulo-historias {
+    color: rgba(58, 58, 58);
+    text-align: center;
+    margin: 3rem;
+    font: bold 30px 'Magnat', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.7px;
+} 
+
+.item {
+    cursor: pointer;
+    text-decoration: none;
+    color: rgba(58, 58, 58);
+}
+
+.card , .card-img-top {
+    border-radius: 0%;
     
+}
+
+.card:hover{
+    transition: 0.30ms all;
+    border: 1px solid rgb(214, 104, 14);
+}
+
+.card-body{
+    margin-top: 0.5rem;
+}
+
+.titulo-card{
+    font-size: 18px;
+}
+
+.card-title p{
+    text-transform: uppercase;
+    font: bold 15px 'Roboto', sans-serif;
+    color: rgb(58, 58, 58);
+}
+
+.card-title a{
+    text-decoration:none;
+}
+
+.card-title a:hover{
+    text-decoration: underline;
+    color: rgb(58, 58, 58);
+}
+
+
+/* formulario */
+
+.subtitulo-form {
+    text-align: center;
+    margin: 2.5rem 0rem 0 1rem;
+    color: rgb(58, 58, 58);
+    font: bold 30px 'Magnat', sans-serif;
+    letter-spacing: 0.7px;
+}
+
+.paragrafo-formulario {
+    text-align: center;
+    margin: 1rem 0rem;
+    color: rgb(58, 58, 58);
+    font: 500 18px 'Roboto', sans-serif;
+    letter-spacing: 0.7px;
+}
+
+#nomesobrenome, #texto {
+    position: absolute;
+    border: 1px solid black;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+#nomesobrenome {
+    margin: 2em 0em;
+    width: 70vw; 
+    margin-left: 15vw;
+}
+
+#texto {
+    margin: 8em auto;
+    width: 70vw; 
+    margin-left: 15vw
+}
+
+.button{
+    margin-left: 15.3vw;
+}
+
+.botao {
+    font: bold 15px 'Roboto';
+    position: absolute;
+    margin: 23em 0em 5em 0em;
+    width: 5rem;
+    height: 2rem;
+    background:#499D71;
+    border: #499D71;
+    color: #FFFFFF;
+    transition: 0.5s all;
+    cursor: pointer;
+} 
+
+.botao:hover {
+    background-color: rgb(214, 104, 14);
+    transition: 0.3s all;
+}
+
+/* footer  */
+
+footer {
+    background:  #499D71 url(anforas.png);
+    background-repeat: repeat;
+    background-size: cover;
+    height: 30vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 26rem;
+}
+
+.bg {
+    height: 30vh;
+    width: 100vw;
+}
+
+.anfora {
+    position: absolute;
+    height: 150px;
+    width: auto;
+}
+
+/* mediaquery */
+
+@media only (min-width: 375px), (max-width: 425px){
+
+    html {
+        scroll-snap-type: y mandatory;
+    }
+
+    #banner-home{
+        height: 50vw;
+    }
+
+    .logo-grupo-boticario {
+        display: none;
+    }
+
+    .lista-nav-lista {
+        margin-top: 2rem;
+        top: 0px;
+    }
+
+    .itens-nav {
+        font: bold 1rem 'Roboto', sans-serif;
+    }
+    
+    .lista-nav {
+        display: inline;
+        margin: 0.5em;
+    }
+
+    .subtitulo-home {
+        margin: 2rem 0rem 0.5rem 0rem;
+        font: bold 18px 'Magnat', sans-serif;
+        text-align: center;
+    }
+
+    .texto-home{
+        font: 400 12px 'Roboto', sans-serif;
+        text-align: justify;
+    }
+
+    .subtitulo-historias{
+        font: bold 18px 'Magnat', sans-serif;
+        margin: 2rem 0rem;
+        text-align: center;
+    }
+
+    .subtitulo-form {
+        font: bold 20px 'Magnat', sans-serif;
+        margin: 2.5rem 0rem 1rem 0rem;
+        text-align: center;
+    }
+
+    .paragrafo-formulario {
+        margin: 0rem 2rem;
+        font: 500 12px 'Roboto', sans-serif;
+    }
+
+    .button{
+        margin-left: 16vw;
+    }
+
+    footer {
+        height: 23vh;
+    }
+
+    .bg{
+        height: 23vh;
+        width: auto;
+    }
+    
+    .anfora {
+        height: 120px;
+    }
+        
 }
