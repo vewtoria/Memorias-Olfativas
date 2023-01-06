@@ -1,0 +1,173 @@
+body, html {
+    overflow-x: hidden !important;
+}
+
+body {
+    background-color: white;
+}
+
+@import url('magnat-poster-semi-bold.otf');
+
+@font-face {
+    font-family: 'Magnat';
+    src: local('magnat'), url('https://www.myfonts.com/collections/magnat-font-rene-bieder'), format('open-type');
+}
+
+/* barra de navegação */
+
+.logo-grupo-boticario {
+    top: 25px;
+    position: absolute;
+    width: 10%;
+    margin-left: 4%;
+}
+
+.lista-nav-lista {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 40px;
+}
+
+.lista-nav {
+    display: inline-block;
+    letter-spacing: 0.1em;
+    margin-right: 20px;
+}
+
+.itens-nav {
+    font: bold 20px 'Magnat', sans-serif;
+    text-transform: uppercase;
+    color: #fff; 
+    text-decoration: none;
+}
+
+.itens-nav:hover{
+    color: rgb(214, 104, 14);
+    transition: 0.3s all;
+}
+
+#banner-produto {
+    width: 100vw;
+    height: 47vw;
+}
+
+.titulo-home {
+    color: rgba(58, 58, 58);
+    text-align: center;
+    margin: 3rem 0rem 1rem 0rem;
+    font: bold 30px 'Roboto', sans-serif;
+    letter-spacing: 0.7px;
+}
+
+.subtitulo-produtos{
+    text-align: center;
+    margin: 1rem 0rem 3rem 0rem;
+    color: rgb(58, 58, 58);
+    font: 500 16px 'DM sans', sans-serif;
+    letter-spacing: 0.7px;
+}
+
+
+/* cards */
+.cards-produto {
+    position: relative;
+    display: inline-block;
+    align-items: baseline;
+    width: 13rem;
+    margin: 0rem 1rem 2rem 6rem;
+}
+
+.cards-produto:hover {
+    box-shadow: 5px 5px 5px 5px #EEEDED;
+}
+
+.card-body {
+    background-color: #EEEDED;
+    font-family: 'Quicksand';
+}
+
+.card-title{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.card-text{
+    font-size: .8125rem;
+}
+
+/* footer  */
+
+footer {
+    background:  #499D71 url(anforas.png);
+    background-repeat: repeat;
+    background-size: cover;
+    height: 30vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+.bg {
+    height: 30vh;
+    width: 100vw;
+}
+
+.anfora {
+    position: absolute;
+    height: 150px;
+    width: auto;
+}
+
+/* mediaquery */
+
+@media only (min-width: 375px), (max-width: 425px){
+
+    html {
+        scroll-snap-type: y mandatory;
+    }
+
+    #banner-produto{
+        height: 55vw;
+    }
+
+
+    .logo-grupo-boticario {
+        display: none;
+    }
+
+    .lista-nav-lista {
+        margin-top: 2rem;
+        top: 0px;
+    }
+
+    .itens-nav {
+        font: bold 1rem 'Roboto', sans-serif;
+    }
+    
+    .lista-nav {
+        display: inline;
+        margin: 0.5em;
+    }
+
+    .cards-produto{
+        width: 14rem;
+        margin: 0rem 2rem 2rem 6rem;
+    }
+
+    footer {
+        height: 23vh;
+    }
+
+    .bg{
+        height: 23vh;
+        width: auto;
+    }
+    
+    .anfora {
+        height: 120px;
+    }
+        
+}
