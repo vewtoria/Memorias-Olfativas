@@ -212,7 +212,7 @@ footer {
 
 @media only (min-width: 375px), (max-width: 425px){
 
-    html{
+    html {
         scroll-snap-type: y mandatory;
     }
 
