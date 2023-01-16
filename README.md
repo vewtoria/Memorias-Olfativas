@@ -31,7 +31,7 @@ Utilizei o conceito desktop first pois queria explorar ao máximo o que poderia 
 
 <a href="https://memorias-olfativas.netlify.app/" target="_blank">Link para visualização do site</a>
  
-  <img src="./images/readme_page.png">
+  <img src="./images/memorias-olfativas.netlify.app_.png">
 
   <img src="./images/previewtrello.png">
 
